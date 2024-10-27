@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y nginx
 
 ## Copy static website content to nginx directory
-sudo cp /src/index.html /var/www/html/
+sudo cp index.html /var/www/html/
 
 ## Start and enable nginx to start automatically after reboots
 sudo systemctl start nginx && sudo systemctl enable nginx
